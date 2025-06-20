@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    background-color: #202124; /* Color de fondo oscuro similar a Gemini */
+    color: #e8eaed; /* Color de texto claro para contrastar con el fondo oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    background: #2D2E30; /* Color de fondo del contenedor un poco más claro que el body */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3); /* Sombra más pronunciada para el fondo oscuro */
+    text-align: center;
+}
+
+h1 {
+    color: #8ab4f8; /* Un tono de azul más claro, similar al azul de Gemini */
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.links-section {
+    margin-top: 30px;
+}
+
+.project-link {
+    display: block;
+    margin: 15px auto;
+    padding: 12px 20px;
+    background-color: #3C4043; /* Color de fondo de botón más oscuro, similar a los botones de Gemini */
+    color: #e8eaed; /* Color de texto claro para los botones */
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    max-width: 300px;
+}
+
+.project-link:hover {
+    background-color: #5f6368; /* Un color ligeramente más claro al pasar el ratón */
+    text-decoration: none;
+}
